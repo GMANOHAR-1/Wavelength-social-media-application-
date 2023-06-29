@@ -1,0 +1,76 @@
+.Chat {
+    position: relative;
+    display: grid;
+    grid-template-columns: 22% auto;
+    gap: 1rem;
+  }
+  
+  .Leftsidechat {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .Chatcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: var(--cardColor);
+    border-radius: 1rem;
+    padding: 1rem;
+    height: auto;
+    min-height: 80vh;
+    overflow: scroll;
+  }
+  
+  .Chatlist {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .Rightsidechat {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .conversation:hover {
+    background: #80808038;
+    cursor: pointer;
+  }
+  
+  .conversation {
+    border-radius: 0.5rem;
+    padding: 10px;
+  }
+  
+  .conversation > div {
+    position: relative;
+  }
+  
+  .onlinedot {
+    background-color: greenyellow;
+    border-radius: 50%;
+    position: absolute;
+    left: 2rem;
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  
+  .chatboxemptymessage {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+   .Chat {
+      grid-template-columns: 16% auto;
+    }
+     .follower.conversation>div>.name{
+      display: none;
+     }
+  }

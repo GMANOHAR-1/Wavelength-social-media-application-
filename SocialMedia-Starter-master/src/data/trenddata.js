@@ -1,0 +1,29 @@
+export const trenddata = [
+    {
+        name:"mano",
+        shares:99
+    },
+    {
+        name:"mano",
+        shares:99
+    },
+    {
+        name:"mano",
+        shares:99
+    },
+    {
+        name:"mano",
+        shares:99
+    },
+    {
+        name:"mano",
+        shares:99
+    },
+    {
+        name:"mano",
+        shares:99
+    },{
+        name:"mano",
+        shares:99
+    },
+]

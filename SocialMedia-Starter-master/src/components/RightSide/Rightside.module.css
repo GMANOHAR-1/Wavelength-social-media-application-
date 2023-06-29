@@ -1,0 +1,27 @@
+.Rightside {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.navicons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navicons>img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.navicons>a>img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.rbutton {
+    height: 3rem;
+    width: 80%;
+    align-self: center;
+}
